@@ -1,0 +1,20 @@
+{
+    // Olası öznitelikler hakkında bilgi edinmek için IntelliSense kullanın.
+    // Mevcut özniteliklerin açıklamalarını görüntülemek için üzerine gelin.
+    // Daha fazla bilgi için şu adresi ziyaret edin: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Dart & Flutter",
+            "request": "launch",
+            "type": "dart",
+            // "program": "bolum2/kullanicidan_veri_alma.dart"
+            //böyle yaparak istediğin dosyayı f5 ile çalıştırabilirsin
+            //ya da
+            "program": "${file}",
+            //böyle yaparak açık olan dosyayı f5 ile çalıştırabiliirsin 
+             //"console": "terminal",//cosnole da değil terminalde çıktılarımızı alıyoruz
+             //fonk kullandığın zaman terminali kapat
+        }
+    ]
+}
